@@ -1,0 +1,33 @@
+{
+    "name": "thianda/xda-wechat",
+    "description": "easywechat for xda private use",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "wechat"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thianda",
+            "email": "yxd9721@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "5.1.*",
+        "naixiaoxin/think-wechat": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
